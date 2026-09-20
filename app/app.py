@@ -47,67 +47,107 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom Styling (Recruiter-grade dark mode)
+# Custom Styling (Authentic Vercel Geek Aesthetic)
 st.markdown("""
 <style>
-    /* Dark Theme & Typography */
+    @import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap');
+
+    /* Vercel Root Dark Theme */
     .stApp {
-        background-color: #0d1117;
-        color: #e6edf3;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: #000000;
+        color: #ededed;
+        font-family: 'Geist', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        letter-spacing: -0.01em;
     }
     
-    /* Headers & Branding */
-    h1, h2, h3, h4 {
-        color: #f0f6fc;
+    /* Vercel Headers */
+    h1, h2, h3, h4, h5, h6 {
+        color: #ffffff;
+        font-family: 'Geist', sans-serif;
         font-weight: 600;
+        letter-spacing: -0.025em;
     }
     
-    /* Metrics and Cards */
+    /* Vercel Minimal Card */
     .metric-card {
-        background-color: #161b22;
-        border: 1px solid #30363d;
+        background-color: #0a0a0a;
+        border: 1px solid #1f1f1f;
         border-radius: 8px;
-        padding: 16px;
-        margin-bottom: 12px;
+        padding: 18px;
+        margin-bottom: 14px;
+        transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+    .metric-card:hover {
+        border-color: #333333;
     }
     
+    /* Vercel Monospace Evidence Box */
     .evidence-box {
-        background-color: #161b22;
-        border: 1px solid #30363d;
-        border-left: 4px solid #388bfd;
+        background-color: #0c0c0c;
+        border: 1px solid #222222;
+        border-left: 3px solid #ededed;
         border-radius: 6px;
-        padding: 12px;
+        padding: 12px 14px;
         margin: 8px 0;
         font-size: 13px;
     }
     
     .quote-text {
-        font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace;
-        color: #58a6ff;
+        font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+        color: #e5e5e5;
         font-size: 12px;
-        background-color: #0d1117;
+        background-color: #141414;
+        border: 1px solid #262626;
         padding: 4px 8px;
         border-radius: 4px;
         display: inline-block;
         margin: 4px 0;
+        line-height: 1.5;
     }
     
+    /* Vercel Status Change Feed Card */
     .status-feed-card {
-        background-color: #161b22;
-        border: 1px solid #238636;
+        background-color: #0a0a0a;
+        border: 1px solid #1f1f1f;
+        border-left: 3px solid #10b981;
         border-radius: 8px;
-        padding: 14px;
-        margin-top: 10px;
+        padding: 16px;
+        margin-top: 12px;
     }
 
-    /* Disclaimer */
+    /* Vercel Sidebar Styling */
+    section[data-testid="stSidebar"] {
+        background-color: #050505;
+        border-right: 1px solid #1a1a1a;
+    }
+
+    /* Buttons */
+    button[kind="primary"] {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        font-weight: 600 !important;
+        border-radius: 6px !important;
+        border: none !important;
+        transition: opacity 0.15s ease !important;
+    }
+    button[kind="primary"]:hover {
+        opacity: 0.9 !important;
+    }
+    
+    /* Progress bar */
+    .stProgress > div > div > div > div {
+        background-color: #ffffff;
+    }
+
+    /* Copilot Minimal Disclaimer */
     .copilot-disclaimer {
-        font-size: 11px;
-        color: #8b949e;
-        border-top: 1px solid #21262d;
-        padding-top: 12px;
+        font-family: 'Geist Mono', monospace;
+        font-size: 10px;
+        color: #737373;
+        border-top: 1px solid #1a1a1a;
+        padding-top: 14px;
         margin-top: 24px;
+        line-height: 1.6;
     }
 </style>
 """, unsafe_allow_html=True)
