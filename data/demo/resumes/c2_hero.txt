@@ -1,0 +1,28 @@
+Alex Rivera
+Email: alex.rivera@example.com | Phone: (555) 789-1234
+Location: Austin, TX | GitHub: github.com/arivera-code
+
+SUMMARY
+Backend developer with 4 years building asynchronous backend services using Python and SQLAlchemy, REST APIs with FastAPI, and microservices architecture.
+
+TECHNICAL SKILLS
+- Languages: Python, PostgreSQL, TypeScript
+- Frameworks: FastAPI, SQLAlchemy, Alembic, Pytest
+- Tools: Docker (local dev), Git, Linux, Postman
+
+PROFESSIONAL EXPERIENCE
+Backend Engineer | Veloce Commerce | 2021 - Present
+- Developed high-availability product services in Python and FastAPI supporting online storefront search and orders.
+- 4 years building asynchronous backend services using Python and SQLAlchemy.
+- Implemented asynchronous REST endpoints in FastAPI for e-commerce catalog with sub-50ms latency.
+- Used Docker for local development and running PostgreSQL locally during unit and integration test cycles.
+
+Software Developer Intern | Austin CodeWorks | 2020 - 2021
+- Created automated integration tests in Python for inventory management REST endpoints.
+
+PROJECTS
+Recommendation Engine
+- Prototyped collaborative filtering model in Python Jupyter notebooks for customer purchase clustering.
+
+EDUCATION
+B.S. in Software Engineering, 2021 | Metro Tech Institute

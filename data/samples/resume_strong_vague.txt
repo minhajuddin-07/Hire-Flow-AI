@@ -1,0 +1,29 @@
+SENIOR BACKEND ENGINEER
+Location: Remote
+
+PROFESSIONAL SUMMARY
+Results-driven Senior Backend Engineer with over 5 years of experience building web applications and backend systems using Python and modern cloud tech. Proven ability to lead engineering initiatives and solve complex architecture challenges.
+
+EXPERIENCE
+
+Lead Backend Engineer | Apex Cloud Systems
+2021 - Present
+- Led a team of engineers to deliver high-impact core initiatives on schedule.
+- Architected and maintained several backend services using Python and PostgreSQL.
+- Handled large volumes of transactions and optimized query performance across our database clusters.
+- Worked extensively with messaging technologies like RabbitMQ to handle asynchronous workloads.
+- Automated system deployments using Docker containers and cloud infrastructure on AWS.
+- Mentored junior engineers and conducted regular team code reviews to ensure code quality.
+
+Software Engineer | TechScale Solutions
+2018 - 2021
+- Developed REST APIs and microservice endpoints with Python (FastAPI and Django).
+- Created relational database schemas and performed data migrations in PostgreSQL.
+- Collaborated with product managers and stakeholders to scope technical requirements.
+- Investigated production errors and improved overall system reliability.
+
+SKILLS
+- Languages: Python, SQL, Bash
+- Databases: PostgreSQL, MySQL, Redis
+- Frameworks & Tools: Django, FastAPI, Celery, RabbitMQ, Docker, Kubernetes, AWS
+- Practices: Microservices, System Design, Agile, Code Reviews, Mentorship

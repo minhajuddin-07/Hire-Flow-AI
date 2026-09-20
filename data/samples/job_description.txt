@@ -1,0 +1,13 @@
+# Job Description: Senior Backend Engineer
+
+## About the Role
+We are seeking an experienced Backend Engineer to design, build, and scale our core platform infrastructure. You will work on distributed services handling millions of daily operations.
+
+## Key Requirements:
+1. [MUST] 4+ years of professional backend software development experience using Python.
+2. [MUST] Production experience designing, building, and deploying RESTful APIs and distributed microservices.
+3. [MUST] Deep proficiency with relational databases (PostgreSQL or MySQL), complex schema design, indexing, and query optimization.
+4. [MUST] Hands-on experience with asynchronous task processing and message brokers (e.g., Celery, RabbitMQ, or Apache Kafka).
+5. [NICE] Hands-on experience with containerization and orchestration using Docker and Kubernetes.
+6. [NICE] Familiarity with AWS cloud architecture (ECS, EKS, RDS, S3, and CloudWatch).
+7. [NICE] Demonstrated experience leading or mentoring junior engineering team members and conducting architectural code reviews.

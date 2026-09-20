@@ -1,0 +1,22 @@
+================================================================================
+PRIYA PATEL  :::  BACKEND SYSTEMS DEVELOPER  :::  priya.p@example.com
+================================================================================
+PROFILE OVERVIEW                       |  SKILLS MATRIX
+---------------------------------------|----------------------------------------
+4 years developing scalable Python      |  Python 3.10, AsyncIO, FastAPI, Pydantic,
+microservices with async drivers,      |  Docker, Docker Compose, Kubernetes,
+event pipelines, and AWS cloud infra.  |  AWS Lambda, DynamoDB, ECS, Terraform.
+---------------------------------------|----------------------------------------
+CAREER HISTORY                         |  NOTABLE PROJECTS
+---------------------------------------|----------------------------------------
+Backend Engineer                       |  Event Streamer Pipeline
+OmniStream Tech (2021 - Present)       |  Kafka event consumer built with
+* Engineered microservices using       |  Python and Docker handling 10k eps.
+  Python 3.10 and FastAPI.             |  Deployed infrastructure via AWS Lambda,
+* Designed high-concurrency FastAPI    |  DynamoDB, and ECS.
+  microservices for telemetry stream.  |
+* Built hardened Docker containers     |  EDUCATION
+  for Kubernetes deployment.           |  Bachelor of Technology in
+* Configured automated CI/CD checks    |  Computer Science, 2021
+  with Pytest and Flake8.              |  National Institute
+================================================================================

@@ -1,0 +1,745 @@
+{
+  "role": {
+    "id": "role_backend_eng_01",
+    "title": "Senior Backend Engineer (Distributed Systems)",
+    "requirements": [
+      {
+        "id": "R1",
+        "text": "3+ years professional Python backend engineering",
+        "category": "skill",
+        "priority": "must_have"
+      },
+      {
+        "id": "R2",
+        "text": "Production API design with FastAPI or async web frameworks",
+        "category": "skill",
+        "priority": "must_have"
+      },
+      {
+        "id": "R3",
+        "text": "Containerization and orchestration with Docker in production/CI/CD",
+        "category": "experience",
+        "priority": "must_have"
+      },
+      {
+        "id": "R4",
+        "text": "AWS cloud infrastructure (ECS, Lambda, S3, RDS)",
+        "category": "experience",
+        "priority": "must_have"
+      },
+      {
+        "id": "R5",
+        "text": "Serving machine learning models in high-throughput production",
+        "category": "experience",
+        "priority": "nice_to_have"
+      },
+      {
+        "id": "R6",
+        "text": "Technical leadership or mentoring junior engineers",
+        "category": "leadership",
+        "priority": "nice_to_have"
+      },
+      {
+        "id": "R7",
+        "text": "Degree in Computer Science, Engineering, or equivalent practical experience",
+        "category": "education",
+        "priority": "must_have"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "id": "c1",
+      "name": "Sarah Chen",
+      "anon_label": "Candidate 1",
+      "stage": "screened",
+      "summary": "Distributed systems engineer with 5 years experience building Python and FastAPI microservices on AWS and Docker.",
+      "profile": {
+        "skills": [
+          {"skill": "Python", "quote": "5 years architecting backend microservices in Python 3.11 with asyncio"},
+          {"skill": "FastAPI", "quote": "Designed and deployed 12+ RESTful APIs using FastAPI and Pydantic"},
+          {"skill": "Docker", "quote": "Containerized multi-service platform using Docker Compose and production Dockerfiles"},
+          {"skill": "AWS", "quote": "Managed ECS clusters, RDS PostgreSQL, and AWS Lambda serverless functions"}
+        ],
+        "experience": [
+          {"role": "Senior Backend Engineer", "company": "Apex Cloud Systems", "period": "2022 - Present", "quote": "Led migration of legacy monolithic backend to containerized FastAPI services on AWS ECS"},
+          {"role": "Software Engineer", "company": "FinFlow Technologies", "period": "2019 - 2022", "quote": "Engineered high-throughput transaction processing pipelines in Python"}
+        ],
+        "projects": [
+          {"name": "Real-time Inference Gateway", "quote": "Built high-throughput model serving gateway handling 8k requests/sec using FastAPI and Triton"}
+        ],
+        "education": [
+          {"degree": "B.S. in Computer Science", "institution": "State University", "quote": "Bachelor of Science in Computer Science, Magna Cum Laude"}
+        ]
+      },
+      "mappings": [
+        {
+          "requirement_id": "R1",
+          "status": "Clear",
+          "evidence": "5 years architecting backend microservices in Python 3.11 with asyncio",
+          "source": "resume",
+          "reasoning": "Explicit evidence of 5 years Python backend development.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R2",
+          "status": "Clear",
+          "evidence": "Designed and deployed 12+ RESTful APIs using FastAPI and Pydantic",
+          "source": "resume",
+          "reasoning": "Demonstrated production FastAPI API design.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R3",
+          "status": "Clear",
+          "evidence": "Containerized multi-service platform using Docker Compose and production Dockerfiles",
+          "source": "resume",
+          "reasoning": "Demonstrated hands-on production Docker containerization.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R4",
+          "status": "Clear",
+          "evidence": "Managed ECS clusters, RDS PostgreSQL, and AWS Lambda serverless functions",
+          "source": "resume",
+          "reasoning": "Extensive experience across AWS core services.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R5",
+          "status": "Clear",
+          "evidence": "Built high-throughput model serving gateway handling 8k requests/sec using FastAPI and Triton",
+          "source": "resume",
+          "reasoning": "Production ML model serving documented with throughput metrics.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R6",
+          "status": "Clear",
+          "evidence": "Mentored 4 junior engineers and led sprint design reviews across the infrastructure team",
+          "source": "resume",
+          "reasoning": "Demonstrated mentoring and technical leadership.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R7",
+          "status": "Clear",
+          "evidence": "Bachelor of Science in Computer Science, Magna Cum Laude",
+          "source": "resume",
+          "reasoning": "BS in Computer Science completed.",
+          "needs_validation": false,
+          "history": []
+        }
+      ],
+      "gaps": [],
+      "interview_questions": [
+        {
+          "requirement_id": "R5",
+          "question": "Could you elaborate on how latency spikes were handled during peak loads on the model gateway?",
+          "follow_up": "What fallback strategies were implemented if Triton instances timed out?"
+        }
+      ],
+      "flags": [],
+      "interview_log": [],
+      "unanswered_areas": [],
+      "audit": [
+        {
+          "insight": "Initial resume mapping extracted 7 requirements",
+          "requirement_id": null,
+          "inputs_used": "Resume text: apex_cloud_sarah_chen.txt",
+          "model": "gemini-2.5-flash",
+          "timestamp": "2026-09-20 14:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "name": "Alex Rivera",
+      "anon_label": "Candidate 2 (Hero Demo)",
+      "stage": "screened",
+      "summary": "Backend developer with strong Python and FastAPI experience, but Docker experience on resume is limited to local development and AWS is not mentioned.",
+      "profile": {
+        "skills": [
+          {"skill": "Python", "quote": "4 years building asynchronous backend services using Python and SQLAlchemy"},
+          {"skill": "FastAPI", "quote": "Implemented asynchronous REST endpoints in FastAPI for e-commerce catalog"},
+          {"skill": "Docker", "quote": "Used Docker for local development and running PostgreSQL locally"}
+        ],
+        "experience": [
+          {"role": "Backend Engineer", "company": "Veloce Commerce", "period": "2021 - Present", "quote": "Developed high-availability product services in Python and FastAPI"}
+        ],
+        "projects": [
+          {"name": "Recommendation Engine", "quote": "Prototyped collaborative filtering model in Python Jupyter notebooks"}
+        ],
+        "education": [
+          {"degree": "B.S. in Software Engineering", "institution": "Metro Tech Institute", "quote": "B.S. in Software Engineering, 2021"}
+        ]
+      },
+      "mappings": [
+        {
+          "requirement_id": "R1",
+          "status": "Clear",
+          "evidence": "4 years building asynchronous backend services using Python and SQLAlchemy",
+          "source": "resume",
+          "reasoning": "Clear 4 years Python backend engineering demonstrated.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R2",
+          "status": "Clear",
+          "evidence": "Implemented asynchronous REST endpoints in FastAPI for e-commerce catalog",
+          "source": "resume",
+          "reasoning": "Production API experience with FastAPI.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R3",
+          "status": "Partial",
+          "evidence": "Used Docker for local development and running PostgreSQL locally",
+          "source": "resume",
+          "reasoning": "Resume mentions Docker strictly for local development environments, missing production or CI/CD container orchestration evidence.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R4",
+          "status": "Missing",
+          "evidence": null,
+          "source": "resume",
+          "reasoning": "Not found in resume. Candidate does not mention AWS or cloud infrastructure.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R5",
+          "status": "Partial",
+          "evidence": "Prototyped collaborative filtering model in Python Jupyter notebooks",
+          "source": "resume",
+          "reasoning": "Prototyped in Jupyter notebooks, but no production serving or high-throughput deployment evidence.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R6",
+          "status": "Unclear",
+          "evidence": null,
+          "source": "resume",
+          "reasoning": "No mention of mentorship or technical leadership in resume.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R7",
+          "status": "Clear",
+          "evidence": "B.S. in Software Engineering, 2021",
+          "source": "resume",
+          "reasoning": "Degree requirement fulfilled.",
+          "needs_validation": false,
+          "history": []
+        }
+      ],
+      "gaps": [
+        "Docker experience verified for local dev only; production deployment unproven.",
+        "AWS experience completely missing from resume.",
+        "Machine learning in production unproven (prototype only)."
+      ],
+      "interview_questions": [
+        {
+          "requirement_id": "R3",
+          "question": "Can you describe how you configure and deploy Docker containers in production and CI/CD pipelines beyond local dev?",
+          "follow_up": "How did you manage container security scanning and multi-stage builds?"
+        },
+        {
+          "requirement_id": "R4",
+          "question": "What hands-on experience do you have provisioning or interacting with AWS services like ECS or RDS?",
+          "follow_up": "Have you worked with Infrastructure as Code such as Terraform or CloudFormation?"
+        }
+      ],
+      "flags": [],
+      "interview_log": [],
+      "unanswered_areas": [],
+      "audit": [
+        {
+          "insight": "Initial resume mapping: 3 of 7 requirements Clear, Docker Partial, AWS Missing",
+          "requirement_id": null,
+          "inputs_used": "Resume text: alex_rivera_resume.txt",
+          "model": "gemini-2.5-flash",
+          "timestamp": "2026-09-20 14:02:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "Marcus Vance",
+      "anon_label": "Candidate 3",
+      "stage": "screened",
+      "summary": "Skilled backend developer with robust Python, FastAPI, Docker, and AWS skills, but completely lacking leadership and mentoring signals.",
+      "profile": {
+        "skills": [
+          {"skill": "Python", "quote": "3+ years Python web backend engineering with Celery and Redis"},
+          {"skill": "FastAPI", "quote": "Architected low-latency microservices with FastAPI"},
+          {"skill": "Docker", "quote": "Authored production Dockerfiles and integrated into GitLab CI pipelines"},
+          {"skill": "AWS", "quote": "Deployed services to AWS ECS Fargate and configured S3 lifecycle rules"}
+        ],
+        "experience": [
+          {"role": "Backend Engineer", "company": "DataSphere Labs", "period": "2022 - Present", "quote": "Individual contributor writing backend APIs in FastAPI and Python"}
+        ],
+        "projects": [
+          {"name": "Async Task Dispatcher", "quote": "Implemented distributed task queue in Python with Celery"}
+        ],
+        "education": [
+          {"degree": "B.A. in Computer Science", "institution": "City College", "quote": "B.A. in Computer Science, 2021"}
+        ]
+      },
+      "mappings": [
+        {
+          "requirement_id": "R1",
+          "status": "Clear",
+          "evidence": "3+ years Python web backend engineering with Celery and Redis",
+          "source": "resume",
+          "reasoning": "Direct match for Python backend engineering.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R2",
+          "status": "Clear",
+          "evidence": "Architected low-latency microservices with FastAPI",
+          "source": "resume",
+          "reasoning": "Production API design with FastAPI demonstrated.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R3",
+          "status": "Clear",
+          "evidence": "Authored production Dockerfiles and integrated into GitLab CI pipelines",
+          "source": "resume",
+          "reasoning": "Production Docker and CI/CD verified.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R4",
+          "status": "Clear",
+          "evidence": "Deployed services to AWS ECS Fargate and configured S3 lifecycle rules",
+          "source": "resume",
+          "reasoning": "Hands-on AWS ECS Fargate production deployment.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R5",
+          "status": "Missing",
+          "evidence": null,
+          "source": "resume",
+          "reasoning": "Not found in resume. No machine learning experience mentioned.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R6",
+          "status": "Missing",
+          "evidence": null,
+          "source": "resume",
+          "reasoning": "Not found in resume. Strict individual contributor with no leadership or mentoring mentioned.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R7",
+          "status": "Clear",
+          "evidence": "B.A. in Computer Science, 2021",
+          "source": "resume",
+          "reasoning": "CS degree verified.",
+          "needs_validation": false,
+          "history": []
+        }
+      ],
+      "gaps": [
+        "Leadership and mentorship not found in resume.",
+        "Production ML model serving experience missing."
+      ],
+      "interview_questions": [
+        {
+          "requirement_id": "R6",
+          "question": "Can you share an instance where you guided a peer or influenced an architectural standard across your team?",
+          "follow_up": "How do you approach onboarding new team members into complex microservices?"
+        }
+      ],
+      "flags": [],
+      "interview_log": [],
+      "unanswered_areas": [],
+      "audit": [
+        {
+          "insight": "Initial resume mapping: 5 of 7 requirements Clear, Leadership missing",
+          "requirement_id": null,
+          "inputs_used": "Resume text: marcus_vance_resume.txt",
+          "model": "gemini-2.5-flash",
+          "timestamp": "2026-09-20 14:04:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "name": "Elena Rostova",
+      "anon_label": "Candidate 4",
+      "stage": "screened",
+      "summary": "Full-stack Python engineer with strong FastAPI skills; displays overlapping dates between two full-time software engineering roles.",
+      "profile": {
+        "skills": [
+          {"skill": "Python", "quote": "4 years developing backend systems in Python"},
+          {"skill": "FastAPI", "quote": "Designed FastAPI microservices for payment processing"},
+          {"skill": "Docker", "quote": "Used Docker containers for staging environments"}
+        ],
+        "experience": [
+          {"role": "Lead Engineer", "company": "FinTech Prime", "period": "Jan 2023 - Present", "quote": "Lead engineer on core payments engine"},
+          {"role": "Senior Backend Developer", "company": "CloudMatrix Global", "period": "Jun 2022 - Mar 2024", "quote": "Built high-availability APIs in Python and FastAPI"}
+        ],
+        "projects": [
+          {"name": "Payments Orchestrator", "quote": "Automated payment reconciliation with FastAPI"}
+        ],
+        "education": [
+          {"degree": "B.S. in Computer Engineering", "institution": "Polytechnic Institute", "quote": "B.S. in Computer Engineering"}
+        ]
+      },
+      "mappings": [
+        {
+          "requirement_id": "R1",
+          "status": "Clear",
+          "evidence": "4 years developing backend systems in Python",
+          "source": "resume",
+          "reasoning": "Direct Python backend experience verified.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R2",
+          "status": "Clear",
+          "evidence": "Designed FastAPI microservices for payment processing",
+          "source": "resume",
+          "reasoning": "FastAPI microservices experience demonstrated.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R3",
+          "status": "Partial",
+          "evidence": "Used Docker containers for staging environments",
+          "source": "resume",
+          "reasoning": "Docker verified for staging environments, production deployment unverified.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R4",
+          "status": "Missing",
+          "evidence": null,
+          "source": "resume",
+          "reasoning": "Not found in resume. AWS experience not mentioned.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R5",
+          "status": "Missing",
+          "evidence": null,
+          "source": "resume",
+          "reasoning": "Not found in resume. ML in production not mentioned.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R6",
+          "status": "Partial",
+          "evidence": "Lead engineer on core payments engine",
+          "source": "resume",
+          "reasoning": "Holds Lead title, but mentoring or team management details are unspecified.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R7",
+          "status": "Clear",
+          "evidence": "B.S. in Computer Engineering",
+          "source": "resume",
+          "reasoning": "Degree requirement met.",
+          "needs_validation": false,
+          "history": []
+        }
+      ],
+      "gaps": [
+        "AWS production experience not mentioned.",
+        "Production Docker and CI/CD unverified."
+      ],
+      "interview_questions": [
+        {
+          "requirement_id": "R4",
+          "question": "What public cloud infrastructure have you deployed to, and how did you configure networking and secrets?",
+          "follow_up": "Have you worked with AWS managed databases or container registries?"
+        }
+      ],
+      "flags": [
+        {
+          "type": "date_overlap",
+          "description": "Dates overlap between FinTech Prime (Jan 2023 - Present) and CloudMatrix Global (Jun 2022 - Mar 2024), worth clarifying",
+          "evidence": [
+            "FinTech Prime: Jan 2023 - Present",
+            "CloudMatrix Global: Jun 2022 - Mar 2024"
+          ]
+        }
+      ],
+      "interview_log": [],
+      "unanswered_areas": [],
+      "audit": [
+        {
+          "insight": "Consistency check flagged 15-month employment date overlap",
+          "requirement_id": null,
+          "inputs_used": "Employment timeline dates",
+          "model": "rule-based-consistency-engine",
+          "timestamp": "2026-09-20 14:06:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "name": "David Kim",
+      "anon_label": "Candidate 5",
+      "stage": "screened",
+      "summary": "Software engineer claiming Kubernetes and AWS in skills summary, but with no supporting projects, experience bullets, or verifiable context.",
+      "profile": {
+        "skills": [
+          {"skill": "Python", "quote": "3 years backend engineering in Python"},
+          {"skill": "FastAPI", "quote": "Built REST APIs with FastAPI"},
+          {"skill": "AWS", "quote": "AWS (EC2, S3, RDS)"},
+          {"skill": "Kubernetes", "quote": "Kubernetes"}
+        ],
+        "experience": [
+          {"role": "Backend Engineer", "company": "Nexus Solutions", "period": "2022 - Present", "quote": "Maintained Python backend services for enterprise reporting"}
+        ],
+        "projects": [
+          {"name": "Reporting Service", "quote": "Automated data exports using Python scripts"}
+        ],
+        "education": [
+          {"degree": "B.S. in Information Systems", "institution": "State College", "quote": "B.S. in Information Systems"}
+        ]
+      },
+      "mappings": [
+        {
+          "requirement_id": "R1",
+          "status": "Clear",
+          "evidence": "3 years backend engineering in Python",
+          "source": "resume",
+          "reasoning": "Direct Python backend experience verified.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R2",
+          "status": "Clear",
+          "evidence": "Built REST APIs with FastAPI",
+          "source": "resume",
+          "reasoning": "FastAPI API construction confirmed.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R3",
+          "status": "Missing",
+          "evidence": null,
+          "source": "resume",
+          "reasoning": "Not found in resume. Docker containerization is not mentioned.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R4",
+          "status": "Unclear",
+          "evidence": "AWS (EC2, S3, RDS)",
+          "source": "resume",
+          "reasoning": "AWS is listed as a keyword in the skills header, but not referenced in any project or work experience bullet.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R5",
+          "status": "Missing",
+          "evidence": null,
+          "source": "resume",
+          "reasoning": "Not found in resume. No machine learning experience found.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R6",
+          "status": "Missing",
+          "evidence": null,
+          "source": "resume",
+          "reasoning": "Not found in resume. Mentoring or technical leadership unmentioned.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R7",
+          "status": "Clear",
+          "evidence": "B.S. in Information Systems",
+          "source": "resume",
+          "reasoning": "Equivalent degree in Information Systems verified.",
+          "needs_validation": false,
+          "history": []
+        }
+      ],
+      "gaps": [
+        "AWS is listed in skills list without supporting work experience or projects.",
+        "Docker containerization not mentioned."
+      ],
+      "interview_questions": [
+        {
+          "requirement_id": "R4",
+          "question": "Your resume lists AWS (EC2, S3, RDS) in your skills list; could you walk through a production system where you configured these services?",
+          "follow_up": "How did you manage IAM roles and network VPC security groups?"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unbacked_skill",
+          "description": "AWS claimed in skills list with no supporting project or work experience mention, worth clarifying",
+          "evidence": [
+            "Skills list: AWS (EC2, S3, RDS)",
+            "Experience: No AWS mentions in Nexus Solutions"
+          ]
+        }
+      ],
+      "interview_log": [],
+      "unanswered_areas": [],
+      "audit": [
+        {
+          "insight": "Consistency check flagged unbacked skill claim (AWS)",
+          "requirement_id": "R4",
+          "inputs_used": "Skills keyword list vs experience section",
+          "model": "rule-based-consistency-engine",
+          "timestamp": "2026-09-20 14:08:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "name": "Priya Patel",
+      "anon_label": "Candidate 6",
+      "stage": "screened",
+      "summary": "Backend developer evaluated from a complex multi-column formatted resume; successfully parses Python, FastAPI, Docker, and AWS evidence.",
+      "profile": {
+        "skills": [
+          {"skill": "Python", "quote": "4 years developing scalable Python microservices with async drivers"},
+          {"skill": "FastAPI", "quote": "Designed high-concurrency FastAPI microservices"},
+          {"skill": "Docker", "quote": "Built hardened Docker containers for Kubernetes deployment"},
+          {"skill": "AWS", "quote": "Deployed infrastructure via AWS Lambda, DynamoDB, and ECS"}
+        ],
+        "experience": [
+          {"role": "Backend Engineer", "company": "OmniStream Tech", "period": "2021 - Present", "quote": "Engineered microservices using Python 3.10 and FastAPI"}
+        ],
+        "projects": [
+          {"name": "Event Streamer", "quote": "Kafka event consumer built with Python and Docker"}
+        ],
+        "education": [
+          {"degree": "B.Tech in Computer Science", "institution": "National Institute", "quote": "Bachelor of Technology in Computer Science, 2021"}
+        ]
+      },
+      "mappings": [
+        {
+          "requirement_id": "R1",
+          "status": "Clear",
+          "evidence": "4 years developing scalable Python microservices with async drivers",
+          "source": "resume",
+          "reasoning": "Verified 4 years Python backend engineering.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R2",
+          "status": "Clear",
+          "evidence": "Designed high-concurrency FastAPI microservices",
+          "source": "resume",
+          "reasoning": "FastAPI microservices design confirmed.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R3",
+          "status": "Clear",
+          "evidence": "Built hardened Docker containers for Kubernetes deployment",
+          "source": "resume",
+          "reasoning": "Docker containerization verified for production deployment.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R4",
+          "status": "Clear",
+          "evidence": "Deployed infrastructure via AWS Lambda, DynamoDB, and ECS",
+          "source": "resume",
+          "reasoning": "AWS services deployed and managed.",
+          "needs_validation": false,
+          "history": []
+        },
+        {
+          "requirement_id": "R5",
+          "status": "Missing",
+          "evidence": null,
+          "source": "resume",
+          "reasoning": "Not found in resume. No machine learning experience found.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R6",
+          "status": "Missing",
+          "evidence": null,
+          "source": "resume",
+          "reasoning": "Not found in resume. Mentoring or leadership not mentioned.",
+          "needs_validation": true,
+          "history": []
+        },
+        {
+          "requirement_id": "R7",
+          "status": "Clear",
+          "evidence": "Bachelor of Technology in Computer Science, 2021",
+          "source": "resume",
+          "reasoning": "CS degree verified.",
+          "needs_validation": false,
+          "history": []
+        }
+      ],
+      "gaps": [
+        "No production machine learning model serving experience.",
+        "No mentoring or technical leadership mentioned."
+      ],
+      "interview_questions": [
+        {
+          "requirement_id": "R5",
+          "question": "Have you interfaced with machine learning pipelines or deployed model inference endpoints?",
+          "follow_up": "How did you optimize memory and response latency for heavy workloads?"
+        }
+      ],
+      "flags": [],
+      "interview_log": [],
+      "unanswered_areas": [],
+      "audit": [
+        {
+          "insight": "Initial resume mapping extracted 5 of 7 requirements Clear from multi-column resume",
+          "requirement_id": null,
+          "inputs_used": "Multi-column raw text stream",
+          "model": "gemini-2.5-flash",
+          "timestamp": "2026-09-20 14:10:00Z"
+        }
+      ]
+    }
+  ]
+}

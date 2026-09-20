@@ -1,0 +1,24 @@
+BACKEND DEVELOPER
+Location: Hybrid
+
+PROFESSIONAL SUMMARY
+Passionate Software Developer with 3 years of engineering experience focusing on web application backends and API integration. Looking to contribute to high-growth teams.
+
+EXPERIENCE
+
+Software Developer | NextGen Web Apps
+2022 - Present
+- Built and maintained RESTful API endpoints for internal dashboard services using Python and Flask.
+- Designed relational schemas and wrote SQL queries for MySQL databases.
+- Integrated third-party payment and reporting APIs into existing web applications.
+- Documented API specifications and wrote unit tests for critical business logic.
+
+Junior Developer | ByteCraft Labs
+2021 - 2022
+- Maintained legacy Python backend scripts and handled bug reports from customer support.
+- Implemented small CRUD features and updated MySQL database tables.
+- Participated in weekly standups and sprint planning meetings.
+
+SKILLS (UNVERIFIED / SELF-REPORTED)
+Python, Flask, MySQL, Docker, Kubernetes, AWS, Apache Kafka, Celery, Redis, Elasticsearch, GraphQL
+(Note: Only Python, Flask, and MySQL were utilized in production roles above; other tools listed from personal self-study).

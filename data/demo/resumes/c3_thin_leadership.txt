@@ -1,0 +1,29 @@
+Marcus Vance
+Email: marcus.vance@example.com | Phone: (555) 456-7890
+Location: Seattle, WA
+
+SUMMARY
+Focused backend software engineer with 3+ years Python web backend engineering with Celery and Redis, FastAPI microservices, and AWS ECS deployments.
+
+TECHNICAL SKILLS
+- Languages: Python, Go, Bash
+- Frameworks: FastAPI, Flask, Celery, Redis
+- Cloud & Containers: Docker, AWS (ECS Fargate, S3, IAM, CloudWatch)
+
+WORK EXPERIENCE
+Backend Engineer | DataSphere Labs | 2022 - Present
+- Individual contributor writing backend APIs in FastAPI and Python for telemetry ingestion.
+- 3+ years Python web backend engineering with Celery and Redis.
+- Architected low-latency microservices with FastAPI handling async streaming events.
+- Authored production Dockerfiles and integrated into GitLab CI pipelines for automated deployments.
+- Deployed services to AWS ECS Fargate and configured S3 lifecycle rules for high-volume logs.
+
+Junior Python Developer | Vector Systems | 2021 - 2022
+- Maintained unit test suites and optimized database queries in PostgreSQL.
+
+PROJECTS
+Async Task Dispatcher
+- Implemented distributed task queue in Python with Celery and RabbitMQ for distributed data crunching.
+
+EDUCATION
+B.A. in Computer Science, 2021 | City College

@@ -1,0 +1,15 @@
+Job Title: Senior Backend Engineer (Distributed Systems)
+Location: Remote / Hybrid
+Department: Core Infrastructure & Cloud Platform
+
+About the Role:
+We are looking for a Senior Backend Engineer to architect, build, and scale high-throughput cloud microservices. You will take ownership of distributed services handling millions of daily events, collaborate closely with ML teams to serve models at low latency, and establish engineering standards across the team.
+
+Requirements:
+1. (R1 - Must Have) 3+ years professional Python backend engineering experience with async programming (asyncio, high-concurrency systems).
+2. (R2 - Must Have) Production API design and deployment using FastAPI or modern asynchronous web frameworks.
+3. (R3 - Must Have) Hands-on experience containerizing multi-service architectures with Docker and managing deployment pipelines in CI/CD environments.
+4. (R4 - Must Have) Demonstrated experience with AWS cloud infrastructure (ECS, Lambda, S3, RDS, networking/security).
+5. (R5 - Nice to Have) Experience serving machine learning models or high-throughput inference pipelines in production.
+6. (R6 - Nice to Have) Technical leadership, architecture reviews, or mentoring junior engineering peers.
+7. (R7 - Must Have) Degree in Computer Science, Software Engineering, or equivalent practical industry experience.

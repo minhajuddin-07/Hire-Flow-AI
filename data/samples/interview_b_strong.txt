@@ -1,0 +1,4 @@
+Question: The role requires hands-on experience with asynchronous task processing and message brokers. Could you detail any real-world production systems where you implemented or managed message queues like Celery, RabbitMQ, or Kafka?
+
+Candidate Response:
+"While my primary role at NextGen Web Apps began on basic Flask endpoints, our reporting export service kept timing out under heavy loads. In Q3 2023, I spearheaded the deployment of Celery backed by Redis and RabbitMQ to process asynchronous report generation and external webhook dispatches. I configured worker prefetches, dead-letter exchanges, and retry backoffs. That system processed over 80,000 asynchronous jobs daily, completely eliminating HTTP 504 timeouts on customer report downloads."

@@ -1,0 +1,4 @@
+Question: You mentioned leading a team of engineers at Apex Cloud Systems. Can you describe the team composition, specific responsibilities, and concrete measurable outcomes achieved under your leadership?
+
+Candidate Response:
+"At Apex Cloud Systems, I directly led a team of 6 engineers—4 backend and 2 QA engineers—responsible for our payments processing overhaul. Over an 8-month period, we migrated our synchronous transaction pipeline to an asynchronous event-driven model using RabbitMQ and Celery. I ran technical sprint planning, established our automated PR review checklist, and resolved architectural blockers. Under this architecture, we reduced payment processing latency from 950ms to 140ms and handled a peak throughput of 3,800 transactions per second during Black Friday with zero downtime and zero dropped events."

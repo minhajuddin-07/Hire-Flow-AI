@@ -1,0 +1,28 @@
+David Kim
+Email: david.kim@example.com | Phone: (555) 987-6543
+Location: Chicago, IL
+
+SUMMARY
+Software engineer with 3 years backend engineering in Python building internal data reporting and analytical workflows.
+
+TECHNICAL SKILLS
+- Languages: Python, Bash, SQL
+- Frameworks: FastAPI, Flask
+- Cloud & Infrastructure: AWS (EC2, S3, RDS), Kubernetes, Git
+
+PROFESSIONAL EXPERIENCE
+Backend Engineer | Nexus Solutions | 2022 - Present
+- Maintained Python backend services for enterprise reporting dashboards.
+- 3 years backend engineering in Python developing daily scheduled data extraction scripts.
+- Built REST APIs with FastAPI to serve report payloads to web frontend.
+- Optimized SQL aggregation queries for PostgreSQL reporting tables.
+
+Software Developer | DataLogix | 2021 - 2022
+- Authored Python unit test suites and refactored internal documentation.
+
+PROJECTS
+Reporting Service
+- Automated data exports using Python scripts and generated PDF reports for executives.
+
+EDUCATION
+B.S. in Information Systems | State College | 2021

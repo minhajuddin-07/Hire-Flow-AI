@@ -1,0 +1,31 @@
+Sarah Chen
+Email: sarah.chen.dev@example.com | Phone: (555) 321-9876
+Location: San Francisco, CA | LinkedIn: linkedin.com/in/sarahchen-backend
+
+SUMMARY
+Staff-track backend engineer with 5 years architecting backend microservices in Python 3.11 with asyncio, FastAPI, AWS cloud infrastructure, and production Docker pipelines.
+
+TECHNICAL SKILLS
+- Languages: Python 3.11, SQL, Go
+- Frameworks: FastAPI, Pydantic, SQLAlchemy, Celery
+- Cloud & Infrastructure: AWS (ECS, RDS PostgreSQL, Lambda, S3, CloudWatch), Docker, Docker Compose, GitHub Actions CI/CD
+- Data & ML: Triton Inference Server, Redis, Kafka
+
+PROFESSIONAL EXPERIENCE
+Senior Backend Engineer | Apex Cloud Systems | 2022 - Present
+- Led migration of legacy monolithic backend to containerized FastAPI services on AWS ECS handling 45M daily API calls.
+- Designed and deployed 12+ RESTful APIs using FastAPI and Pydantic with automated OpenAPI contracts.
+- Containerized multi-service platform using Docker Compose and production Dockerfiles with multi-stage security hardening.
+- Managed ECS clusters, RDS PostgreSQL, and AWS Lambda serverless functions with 99.98% uptime.
+- Mentored 4 junior engineers and led sprint design reviews across the infrastructure team.
+
+Backend Software Engineer | FinFlow Technologies | 2019 - 2022
+- Engineered high-throughput transaction processing pipelines in Python with asyncio and Redis queues.
+- Built automated continuous integration pipelines with automated Docker builds and unit testing suites.
+
+PROJECTS
+Real-time Inference Gateway
+- Built high-throughput model serving gateway handling 8k requests/sec using FastAPI and Triton inference server with GPU acceleration.
+
+EDUCATION
+Bachelor of Science in Computer Science, Magna Cum Laude | State University | 2019

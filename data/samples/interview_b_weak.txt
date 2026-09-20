@@ -1,0 +1,4 @@
+Question: The role requires hands-on experience with asynchronous task processing and message brokers. Could you detail any real-world production systems where you implemented or managed message queues like Celery, RabbitMQ, or Kafka?
+
+Candidate Response:
+"As mentioned in my skills list, I have studied Celery and RabbitMQ and understand the principles of asynchronous pub-sub architectures quite well. In our team, the senior backend architect had already set up the background infrastructure beforehand, so while I didn't configure or deploy the brokers myself, I interacted with the codebase and ran tests locally."

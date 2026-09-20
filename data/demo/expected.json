@@ -1,0 +1,56 @@
+{
+  "c1": {
+    "R1": "Clear",
+    "R2": "Clear",
+    "R3": "Clear",
+    "R4": "Clear",
+    "R5": "Clear",
+    "R6": "Clear",
+    "R7": "Clear"
+  },
+  "c2": {
+    "R1": "Clear",
+    "R2": "Clear",
+    "R3": "Partial",
+    "R4": "Missing",
+    "R5": "Partial",
+    "R6": "Unclear",
+    "R7": "Clear"
+  },
+  "c3": {
+    "R1": "Clear",
+    "R2": "Clear",
+    "R3": "Clear",
+    "R4": "Clear",
+    "R5": "Missing",
+    "R6": "Missing",
+    "R7": "Clear"
+  },
+  "c4": {
+    "R1": "Clear",
+    "R2": "Clear",
+    "R3": "Partial",
+    "R4": "Missing",
+    "R5": "Missing",
+    "R6": "Partial",
+    "R7": "Clear"
+  },
+  "c5": {
+    "R1": "Clear",
+    "R2": "Clear",
+    "R3": "Missing",
+    "R4": "Unclear",
+    "R5": "Missing",
+    "R6": "Missing",
+    "R7": "Clear"
+  },
+  "c6": {
+    "R1": "Clear",
+    "R2": "Clear",
+    "R3": "Clear",
+    "R4": "Clear",
+    "R5": "Missing",
+    "R6": "Missing",
+    "R7": "Clear"
+  }
+}

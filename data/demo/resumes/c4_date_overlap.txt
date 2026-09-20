@@ -1,0 +1,29 @@
+Elena Rostova
+Email: elena.rostova@example.com | Phone: (555) 654-3210
+Location: New York, NY
+
+SUMMARY
+Full-stack Python and FastAPI engineer with 4 years developing backend systems in Python and real-time financial services.
+
+TECHNICAL SKILLS
+- Languages: Python, JavaScript, SQL
+- Frameworks: FastAPI, Django REST Framework
+- Containers: Docker (staging environments)
+
+PROFESSIONAL EXPERIENCE
+Lead Engineer | FinTech Prime | Jan 2023 - Present
+- Lead engineer on core payments engine, designing event-driven reconciliation workflows.
+- 4 years developing backend systems in Python with focus on financial precision.
+- Designed FastAPI microservices for payment processing with automated schema validation.
+- Used Docker containers for staging environments to simulate multi-currency banking nodes.
+
+Senior Backend Developer | CloudMatrix Global | Jun 2022 - Mar 2024
+- Built high-availability APIs in Python and FastAPI for enterprise clients.
+- Maintained legacy microservices and migrated core endpoints to async Python.
+
+PROJECTS
+Payments Orchestrator
+- Automated payment reconciliation with FastAPI and RabbitMQ handling $2M daily volume.
+
+EDUCATION
+B.S. in Computer Engineering | Polytechnic Institute | 2020
